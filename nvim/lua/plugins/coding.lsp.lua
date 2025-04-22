@@ -10,26 +10,18 @@ return {
         "vim",
         "yaml",
         "json",
-
         -- Web Development
-        -- "html",
-        -- "javascript",
-        -- "typescript",
-        -- "tsx",
-        -- "astro",
-        -- "css",
-
-        -- flutter development
-        "dart",
-
+        "html",
+        "javascript",
+        "typescript",
+        "tsx",
+        "astro",
+        "css",
         -- other
-        -- "http",
-        -- "graphql",
-        -- "markdown",
-        -- "markdown_inline",
-        -- optional
-        -- "python",
-        -- "query",
+        "http",
+        "graphql",
+        "markdown",
+        "markdown_inline",
       },
     },
   },
@@ -37,24 +29,16 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        -- 0. flutter development
-        "dart-debug-adapter",
-
         -- 1. web development
-        -- "prettier",
-        -- "tailwindcss-language-server",
-        -- "typescript-language-server",
-
+        "prettier",
+        "tailwindcss-language-server",
+        "typescript-language-server",
         -- 2. must
-        -- "json-lsp",
-        -- "lua-language-server",
-
+        "json-lsp",
+        "lua-language-server",
         -- 3. other
-        -- "stylua",
-        -- "shellcheck",
-        -- "shfmt",
-        -- "flake8",
-        -- "prettier",
+        "stylua",
+        "prettier",
       },
     },
   },
@@ -62,7 +46,7 @@ return {
     "nvim-lspconfig",
     opts = {
       inlay_hints = {
-        enabled = false,
+        enabled = true,
       },
     },
   },
